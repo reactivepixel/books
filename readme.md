@@ -7,6 +7,23 @@
 * Node 6.9.5+
 * NPM 3.10.10+
 
+
+# Deployment
+
+Add the Production Server to your git remotes
+
+```
+git remote add production ssh://root@104.236.61.243:/var/repos/books.git
+```
+
+Push Master to production.
+
+```
+git push production master
+```
+
+TEST the server.!!!
+
 # Server Setup
 
 Create a cloud based server on Digital Ocean. $5
