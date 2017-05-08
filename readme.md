@@ -17,6 +17,9 @@ npm install
 npm start
 ```
 
+Verify that it is working by viewing port
+[http://localhost:3000](http://localhost:3000)
+
 # Deployment
 
 Add the Production Server to your git remotes
@@ -70,6 +73,7 @@ Add content to Hook file
 #!/bin/bash
 
 GIT_WORK_TREE=/var/www/books.com git checkout -f
+npm install --prefix /var/www/books.com/
 ```
 
 Make hook executable
