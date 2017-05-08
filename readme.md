@@ -7,6 +7,15 @@
 * Node 6.9.5+
 * NPM 3.10.10+
 
+```
+npm install
+```
+
+## Start Local Server
+
+```
+npm start
+```
 
 # Deployment
 
@@ -22,7 +31,14 @@ Push Master to production.
 git push production master
 ```
 
-TEST the server.!!!
+# Run the Server
+
+```
+cd /var/www/books.com
+npm start
+```
+
+
 
 # Server Setup
 

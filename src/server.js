@@ -1,1 +1,11 @@
-console.log("hello World");
+const express = require('express');
+
+const app = express();
+
+
+app.get('/', (req, res) => {
+  res.json({ health: true })
+});
+
+
+app.listen(3000);
